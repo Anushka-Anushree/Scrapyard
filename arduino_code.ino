@@ -2,7 +2,7 @@
 #include <DFRobotDFPlayerMini.h>
 
 const int waterSensorPin = A0;  
-const int speakerPin = 9;       
+const int speakerPin = 5;       
 const int pumpPin = 8;          
 
 const int minSensorReading = 0;  
