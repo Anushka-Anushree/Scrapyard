@@ -1,0 +1,26 @@
+Project Name: H2oHH no! 
+Authors: Anushree and Anushka
+
+What is our Project?
+Our project is a cup that does not let you drink water. Everytime you try to drink water it splashes you in the face and then starts roasting you.
+
+What did we use?
+1. Arduino Uno R3: The brain of the project
+2. Water Sensor: detects when the water level of the project decreases 
+3. DF PlayerMini: Stores the roasts in the Microsd Card
+4. Speaker: Plays the sound
+5. Water pump: Pumps the water to splash the drinkers face
+6. Straw: Helps direction the water 
+7. Transistors: Acts as a switch for the water pump
+8. Resistors
+9. Jumper Wires
+10. Breadboard
+
+How does it work?
+1. The person who is thirsty pics up the glass to drink water. As they start drinking water, the water sensor detects a change in the level of the water.
+2. This change in the level of the water results in the trigerring of the DF Mini Player that contains the roasts.
+3. This in turn results in the roasts being played through the speaker.
+4. The change in water level also triggers the water pump that in turn using the transistor to turn on and splashes the person who tries to drink water.
+5. This creates the project that doesnt allow people to drink water.
+
+
