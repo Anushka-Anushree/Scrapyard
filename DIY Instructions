@@ -23,4 +23,44 @@ How does it work?
 4. The change in water level also triggers the water pump that in turn using the transistor to turn on and splashes the person who tries to drink water.
 5. This creates the project that doesnt allow people to drink water.
 
+How to Build this Water Bottle:
+Components Required:
+Arduino (Uno/Nano)
+Water Pump (small 5V/12V pump)
+DF Mini Player (for playing roast audio)
+Water Level Sensor (to detect drinking attempt)
+Resistors (for circuit stability)
+Jumper Wires
+Transistor (e.g., NPN like BC547 for pump control)
+MicroSD Card (with audio files for DF Mini Player)
+Speaker (for roasting sounds)
+Battery Pack (for portability)
+Wiring Instructions:
+Water Level Sensor
+
+Connect VCC to 5V on Arduino
+Connect GND to GND on Arduino
+Connect Signal Pin to A0 on Arduino
+Water Pump
+
+Connect Pump Positive (+) to Collector of the NPN Transistor
+Connect Pump Negative (-) to GND
+Connect Transistor Emitter to GND
+Connect Base of the transistor to Arduino Digital Pin 9 via a 1kΩ resistor
+DF Mini Player & Speaker
+
+Connect VCC to 5V
+Connect GND to GND
+Connect RX to TX (Pin 10) on Arduino
+Connect TX to RX (Pin 11) on Arduino
+Connect Speaker terminals to the SPK1 & SPK2 of the DF Mini Player
+Powering the Setup
+
+If using a 9V battery, connect it to the Vin of the Arduino
+If using a power bank, connect it to the USB port
+Code Logic:
+The water level sensor detects when someone tilts the bottle to drink.
+The Arduino triggers the water pump to spray water back at them.
+Simultaneously, the DF Mini Player plays a random roast audio clip.
+
 
